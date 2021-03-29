@@ -1,9 +1,9 @@
-let number = 15
+let const = 15
 let guess = 0
 
-while (guess !== number) {
+while (guess !== const) {
   guess = prompt('Guess my age')
 }
-while (guess !== number) {
+while (guess !== const) {
   guess = prompt('Try again')
 }
